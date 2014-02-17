@@ -15,6 +15,6 @@ class Stock(object):
             The name of the file is the name of the stock and the directory
             is already known so no arguments are needed'''
         from read_stock import read_stock
-        self.dates, self.values = read_stock(self.name, self.directory)
+        self.dates, self.values = read_stock(self.name, self.directory) 
 
 
